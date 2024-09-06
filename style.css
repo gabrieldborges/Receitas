@@ -1,3 +1,9 @@
+:root{
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37;
+}
+
 *{
     --border-rad : 16px;
 }
@@ -7,6 +13,11 @@ body{
 background-image: url(./assets/bg-image.jpg);
 background-size: cover;
 }
+body img{
+    border-radius: var(--border-rad);
+    width: 100%;
+    border: solid;
+}
 #page{
 box-sizing: border-box;
 max-width: 800px;
@@ -15,12 +26,37 @@ border-radius: calc(var(--border-rad) * 1.5);
 background-color: #F0E8C2;
 margin: 48px 240px 100px
 }
-
-
-
-
-
-body img{
-    border-radius: var(--border-rad);
-    width: 100%;
+main{
+    padding: 0 24px ;
+    border: solid;
 }
+#page h1 {
+    line-height: 140%;
+    font-size: 40px ;
+    border: solid;
+}
+#about ul{
+    border: solid;
+    padding-left: 0px;
+}
+#about ul li{
+    list-style: none;
+   
+}
+h2{
+    font-size: 24px;
+}
+h1,h2 {
+    color: #291B1A;
+}
+#ingridients{
+    padding: 0 24px;
+}
+#ingridients ul{
+    padding-left: 0px;
+}
+
+
+
+
+
