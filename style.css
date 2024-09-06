@@ -1,13 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 :root{
     font-family: "Alice", serif;
     line-height: 150%;
     color: #573A37;
-}
-
-*{
     --border-rad : 16px;
+  
 }
-
 
 body{
 background-image: url(./assets/bg-image.jpg);
@@ -16,7 +19,6 @@ background-size: cover;
 body img{
     border-radius: var(--border-rad);
     width: 100%;
-    border: solid;
 }
 #page{
 box-sizing: border-box;
@@ -28,16 +30,17 @@ margin: 48px 240px 100px
 }
 main{
     padding: 0 24px ;
-    border: solid;
+    margin-top: 24px;
 }
 #page h1 {
     line-height: 140%;
     font-size: 40px ;
-    border: solid;
+}
+#about p{
+    margin-top: 4px;
 }
 #about ul{
-    border: solid;
-    padding-left: 0px;
+    margin-top: 12px;
 }
 #about ul li{
     list-style: none;
@@ -48,15 +51,18 @@ h2{
 }
 h1,h2 {
     color: #291B1A;
+    line-height: 150%;
 }
 #ingridients{
-    padding: 0 24px;
+margin-top: 24px;
 }
+
 #ingridients ul{
-    padding-left: 0px;
+    margin-left: 24px;
 }
-
-
+#preparation{
+    margin-top:24px;
+}
 
 
 
