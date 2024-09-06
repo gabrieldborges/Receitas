@@ -1,8 +1,26 @@
+*{
+    --border-rad : 16px;
+}
+
 
 body{
 background-image: url(./assets/bg-image.jpg);
-
+background-size: cover;
 }
+#page{
+box-sizing: border-box;
+max-width: 800px;
+padding: 24px;
+border-radius: calc(var(--border-rad) * 1.5);
+background-color: #F0E8C2;
+margin: 48px 240px 100px
+}
+
+
+
+
+
 body img{
-    border-radius: 16px;
+    border-radius: var(--border-rad);
+    width: 100%;
 }
